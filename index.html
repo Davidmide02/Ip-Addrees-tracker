@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+</head>
+
+<body>
+  <header>
+
+    <h1>IP Address Tracker</h1>
+
+    <form id="form">
+
+      <input type="text" id="input-ip" placeholder=" Search for any IP address or domain">
+
+      <button type="submit">
+        <img src="./images/icon-arrow.svg" alt="img">
+      </button>
+
+    </form>
+  </header>
+
+
+  <main>
+
+    <!-- ip address details container -->
+    <div class="control">
+
+      <section class="display-container">
+
+        <!-- ip address container -->
+        <div class="common-container">
+          <h4>
+            IP Address
+          </h4>
+
+          <h3 id="ip-el">
+            192.212.174.101
+          </h3>
+        </div>
+        <!-- side line -->
+        <div class="side-line">
+        </div>
+
+        <!-- location container -->
+        <div class="common-container">
+          <h4>
+            location
+          </h4>
+
+          <h3 id="location-el">
+            Broocklyn
+          </h3>
+        </div>
+
+        <!-- side line -->
+        <div class="side-line">
+        </div>
+
+        <!-- time zone contianer -->
+        <div class="common-container">
+          <h4>
+            timezone
+          </h4>
+
+          <h3 id="timezone-el">
+            UTC -05:00
+            <!-- </h3> -->
+        </div>
+
+        <!-- side line -->
+        <div class="side-line">
+
+        </div>
+
+        <!-- isp container -->
+
+        <div class="common-container">
+          <h4>
+            isp
+          </h4>
+
+          <h3 id="isp-el">
+            SpaceX Starlink
+          </h3>
+
+        </div>
+
+        <!-- side line
+              <div class="side-line">
+                I am
+              </div> -->
+
+
+      </section>
+
+    </div>
+
+
+    <!-- map container -->
+    <section id="map">
+
+    </section>
+
+  </main>
+  <!-- add offset value dynamically using the API -->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+</body>
+
+<script src="./tracker.js"></script>
+
+</html>
