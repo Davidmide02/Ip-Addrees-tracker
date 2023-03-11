@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [ solution URL](https://github.com/Davidmide02/Ip-Addrees-tracker.git)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Live Site URL: [live site URL](https://davimide02-ip-address-tracker.netlify.app/)
 
 ## My process
 - A proper analysis of the UI for better and responsive styling
